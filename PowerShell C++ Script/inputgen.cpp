@@ -3,9 +3,6 @@
 using namespace std;
 #define int long long
 #define chr std::chrono
-const int I_MAX = 1e5+3;
-const int LL_MAX = 1e18+3;
-const int MOD = 100;
 
 int rand(int a, int b) {
 	return a + rand()%(b-a+1);
